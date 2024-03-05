@@ -84,6 +84,26 @@ h1{
     text-align: center;
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-    
+.paragraph{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(47, 87, 155);
+    display: flex;
+    flex-direction: column;
+
+}
+span{
+    font-weight: 800;
 }
