@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(1, 2, 15);
     color: white;
 }
 .logo{
@@ -21,15 +21,33 @@ a{
     color:white;
     font-weight: 600;
 }
-.header1{
-    background-color:#00549a;
+
+.header1, .header2, .container, .section1, .section1container1, .items, .container2, .section2, .section3{
     display: flex;
-    justify-content: space-between;
+}
+
+.items, .section1, .header2{
+    flex-direction: column; 
+}
+
+.section3, .section2, .container{
+    justify-content: center;
+}
+
+.container2, .container3{
+    flex-direction: column;
+}
+
+.section1, .items, .container, .header1
+{
     align-items: center;
 }
+
+.header1{
+    background-color:#00549a;
+    justify-content: space-between;
+}
 .header2{
-    display: flex;
-    flex-direction: column;
     width: 400px;
     padding: 10px;
 }
@@ -39,71 +57,61 @@ a{
     height: 250px;
     margin: 30px 0;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .section1Images{
     width: 90px;
     height: 90px;
     border-radius: 100px;
 }
-.section1{
-    display: flex;
-    flex-direction: column  ;
-    align-items: center;
-    margin-top: 50px;
-    
-}
+
 .section1container1{
-    display: flex;
     gap: 40px;
 }
-.items{
-    display: flex;
-    flex-direction: column;
+
+.items{ 
     flex-wrap: wrap;
     flex-basis: 90px;
-    align-items: center;
     text-align: center;
 }
-h1{
-    font-size: 50px;
+.section1{
+    margin-top: 50px;  
 }
+
 .section2{
-    display: flex;
-    justify-content: center;
     margin-top: 60px;
     background-color: rgb(64, 60, 54);
 }
+
 .container2{
-    display: flex;
-    flex-direction: column;
+
     width:500px;
     text-align: center;
-    font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-.paragraph{
-    font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.section3{
-    display: flex;
-    justify-content: center;
-}
-
 .container3{
     margin: 40px;
     padding: 40px;
     background-color: rgb(47, 87, 155);
-    display: flex;
-    flex-direction: column;
+}
 
+.paragraph, .container2{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
 }
 span{
     font-weight: 800;
+}
+
+.paragraph{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(15, 10, 53);
+    padding: 10px;
 }
