@@ -44,3 +44,30 @@ a{
     justify-content: center;
     align-items: center;
 }
+.section1Images{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+.section1{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.section1container1{
+    display: flex;
+    gap: 40px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 90px;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
